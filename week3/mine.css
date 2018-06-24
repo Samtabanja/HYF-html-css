@@ -1,0 +1,345 @@
+/*header {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    
+    position: relative;
+    z-index: auto;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+
+.container {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: 33px;
+    position: static;
+    z-index: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    width:1170px;
+
+}
+
+header:after {display:table;
+content: "";
+clear: both;
+
+}
+
+
+
+
+.logo {
+    margin: 16px 35.1px 35.1px 20px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    line-height: 33px;
+    position: static;
+    z-index: auto;
+    background-color: aqua;
+    width: 200px;
+    height: 60px;
+}
+
+
+.list {    
+   
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    line-height: 33px;
+    position: static;
+    z-index: auto;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+li {    
+    
+    font-size: 16px;
+  
+    float: left;
+    line-height: 33px;
+    position: static;
+    z-index: auto;
+    background-color: aqua;
+}
+
+a{ padding: 40px 10px 40px 10px;
+    box-sizing: border-box;
+    display: block;}
+    
+ul {margin: 0;
+padding: 0;} */
+
+
+html , body {margin: 0px;
+      padding: 0px;
+      font-family: "Montserrat",sans-serif;
+}
+
+
+header  { box-sizing: border-box;
+         display: block;
+         background-color:white;
+         
+}
+
+header::after{ display: table;
+    content: '';
+    clear : both;
+               
+}
+
+
+.container {
+    max-width:  1100px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+
+img{max-width:100%;
+    max-height:100%;
+    height: auto;
+    display: block;
+}
+
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 60px;
+    display: block;
+    margin: 15px;
+    
+}
+
+
+.nav{
+      float: left;
+      display: none;
+      margin: 11px;
+}
+
+
+ul {
+padding: 10px;
+overflow:hidden;}
+
+li {text-transform: uppercase;
+    font-size: 14px;
+    float: left;
+    display: block;
+    margin: 0px 5px ;  
+    height: 100%;
+    ​text-align: center;
+}
+
+a{ 
+    padding: 40px 10px ;
+    ​text-align: center;
+ }
+
+
+ #text1 {
+	text-align: center;
+	padding: 10px 15px;
+	position: relative;
+	margin: 0 auto;
+    max-width: 100%;
+    align-content: center;
+   
+    
+}
+
+.circle {
+    
+    
+    background-color:rgb(233, 78, 15);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   margin: auto;
+  padding: 10px;
+  align-items: center;
+  display: block;
+  text-align: center;
+  font-size: 25px
+}
+  
+
+#text3 {
+    color: white;
+    background-color: rgb(53, 115, 60);;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+
+#text2 {
+    background-color: white;
+    padding: 10px 40px;
+   
+}
+
+
+#Exhibition {
+    height: 215px;
+    background-color: rgb(54, 54, 54);
+    padding: 10px 40px;
+    color: white;
+   text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+   
+    position: relative;
+    
+}
+
+#Exhibition h1 {
+    padding:9px;
+     margin: 20px 23%;
+
+    display: block;
+    
+   
+}
+
+#Exhibition :nth-child(1) {
+    float: left;
+    display: none;
+    position: relative;
+}
+
+#Exhibition :nth-child(3) {
+    float: right;
+    display: none;
+    position: relative;
+}
+
+#box{
+    box-sizing: border-box;
+    width: 100%;
+   
+    position: relative;
+    overflow: hidden;
+
+}
+
+ 
+    
+
+
+
+
+.boxclass {
+    float: left;
+    margin: 0px;
+    
+    padding: 0px;
+    box-sizing: border-box;
+   
+   
+}
+
+#logos{
+    margin: auto;
+    align-content: center;
+    width: 50%;
+    padding: 40px
+    
+}
+
+#logos :nth-child(n) { float: left;
+   align-content: center;
+   margin: 10px;
+    
+}
+
+#logos :nth-child(1) { margin: 30px 
+     
+ }
+.boxclass :nth-child(n+2){padding: px}
+
+@media only screen and (min-width:1100px) {
+	#text1 {
+		position: absolute;
+		top: 350px;
+		left: 25%;
+        z-index: 2  ;
+		
+	
+    }
+
+
+    .nav{
+        float: left;
+        display: block;
+        margin: 11px;
+  }
+
+  .circle {
+    position: relative;
+    float: right;
+ 
+    border-radius: 50%;
+    bottom: 100px;
+    left: 100px;
+  
+    z-index: 1  ;
+}
+  
+#Exhibition h1 {
+    padding-top: 50px;
+    display: block;
+    float: left;
+}
+
+#Exhibition :nth-child(1) {
+    float: left;
+    display: block;
+}
+
+#Exhibition :nth-child(3) {
+    float: left;
+    display: block;
+}
+
+
+.boxclass {
+    float: left;
+    width : 25%;
+    
+    
+}
+#box :nth-child(1) {width: 50%}
+
+#logos{
+    margin: auto;
+    
+    width: 100%;
+    
+}
+
+#logos :nth-child(n) { float: left;
+   align-content: center;
+    
+}
+
+}
